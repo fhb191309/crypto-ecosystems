@@ -1,0 +1,98 @@
+# Ecosystem Level Information
+title = "Functionland"
+
+sub_ecosystems = []
+
+github_organizations = ["https://github.com/functionland"]
+
+# Repositories
+[[repo]]
+url = "https://github.com/functionland/ADR"
+tags = [ "DEcision Documents"]
+
+[[repo]]
+url = "https://github.com/functionland/fx-design-system"
+tags = [ "Components"]
+
+[[repo]]
+url = "https://github.com/functionland/BLOX"
+tags = [ "Hardware"]
+
+[[repo]]
+url = "https://github.com/functionland/cancan"
+tags = [ "Dfinity", "Backend"]
+
+[[repo]]
+url = "https://github.com/functionland/fx-fotos"
+tags = [ "dApp", "Gallery"]
+
+[[repo]]
+url = "https://github.com/functionland/fula-build-aar"
+tags = [ "Android", "Protocol"]
+
+[[repo]]
+url = "https://github.com/functionland/fula-pallet"
+tags = [ "Substrate", "Blockchain"]
+
+[[repo]]
+url = "https://github.com/functionland/fula-pool"
+tags = [ "Substrate", "Blockchain"]
+
+[[repo]]
+url = "https://github.com/functionland/fx-files"
+tags = [ "dApp", "File Manager"]
+
+[[repo]]
+url = "https://github.com/functionland/go-fula"
+tags = [ "Protocol", "Backend"]
+
+[[repo]]
+url = "https://github.com/functionland/MicrochipSmartHub"
+tags = [ "Hardware", "Hub"]
+
+[[repo]]
+url = "https://github.com/functionland/proof-engine"
+tags = [ "Substrate", "Blockchain"]
+
+[[repo]]
+url = "https://github.com/functionland/react-native-fula"
+tags = [ "Mobile", "Protocol"]
+
+[[repo]]
+url = "https://github.com/functionland/simulation"
+tags = [ "Tokenomics", "Blockchain"]
+
+[[repo]]
+url = "https://github.com/functionland/sugarfunge-admin-panel"
+tags = [ "Substrate", "Blockchain"]
+
+[[repo]]
+url = "https://github.com/functionland/sugarfunge-api"
+tags = [ "Substrate", "Blockchain"]
+
+[[repo]]
+url = "https://github.com/functionland/sugarfunge-explorer"
+tags = [ "Substrate", "Blockchain"]
+
+[[repo]]
+url = "https://github.com/functionland/sugarfunge-node"
+tags = [ "Substrate", "Blockchain"]
+
+[[repo]]
+url = "https://github.com/functionland/whitepaper"
+tags = [ "Document", "Tokenomics"]
+
+[[repo]]
+url = "https://github.com/functionland/wnfs-android"
+tags = [ "IPLD", "WNFS"]
+
+[[repo]]
+url = "https://github.com/functionland/wnfs-build-aar"
+tags = [ "IPLD", "WNFS"]
+
+[[repo]]
+url = "https://github.com/functionland/wnfs-go-archived"
+
+[[repo]]
+url = "https://github.com/functionland/wnfs-utils"
+tags = [ "IPLD", "WNFS"]

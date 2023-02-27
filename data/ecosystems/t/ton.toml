@@ -1,30 +1,516 @@
 # Ecosystem Level Information
 title = "TON"
 
-sub_ecosystems = []
+sub_ecosystems = ["BlockWit", "OpenProduct", "Tonana", "Tonswap"]
 
 github_organizations = [
-    "https://github.com/ton-blockchain",
-    "https://github.com/tonwhales",
-    "https://github.com/ton-community",
-    "https://github.com/ton-society",
-    "https://github.com/toncenter",
-    "https://github.com/tonkeeper",
-    "https://github.com/TegroTON",
-    "https://github.com/ton-defi-org",
-    "https://github.com/LiberMall",
-    "https://github.com/OpenProduct",
-    "https://github.com/Tonstarter",
-    'https://github.com/tonswap'
+  "https://github.com/LiberMall",
+  "https://github.com/TegroTON",
+  "https://github.com/ton-blockchain",
+  "https://github.com/ton-community",
+  "https://github.com/ton-defi-org",
+  "https://github.com/ton-society",
+  "https://github.com/ton-core",
+  "https://github.com/ton-utils",
+  "https://github.com/TonoxDeFi",
+  "https://github.com/tonfactory",
+  "https://github.com/ton-foundation",
+  "https://github.com/tondiamonds",
+  "https://github.com/toncenter",
+  "https://github.com/tonkeeper",
+  "https://github.com/tonwhales",
+  "https://github.com/Tonstarter",
+  "https://github.com/ton-link",
+  "https://github.com/tonkite",
+  "https://github.com/tonstack",
+  "https://github.com/getgems-io",
+  "https://github.com/ton-connect",
+  "https://github.com/sky-ring",
+  "https://github.com/delab-team",
+  "https://github.com/TON-Pool",
+  "https://github.com/scaleton-co",
+  "https://github.com/ston-fi",
+  "https://github.com/disintar",
+  "https://github.com/labraburn",
+  "https://github.com/tondevmoscow",
+  "https://github.com/olifanton",
+  "https://github.com/mir-one",
 ]
 
 # Repositories
+[[repo]]
+url = "https://github.com/orbs-network/dao-vote"
 
 [[repo]]
-url = "https://github.com/ton-blockchain/TEPs"
+url = "https://github.com/orbs-network/ton-access-status"
 
 [[repo]]
-url = "https://github.com/ton-blockchain/TIPs"
+url = "https://github.com/orbs-network/twap-ui"
+
+[[repo]]
+url = "https://github.com/orbs-network/ton-access-mngr"
+
+[[repo]]
+url = "https://github.com/0xknstntn/onda-ton"
+
+[[repo]]
+url = "https://github.com/Gusarich/multisig-dapp"
+
+[[repo]]
+url = "https://github.com/puppycats/multisig"
+
+[[repo]]
+url = "https://github.com/puppycats/ton-random"
+
+[[repo]]
+url = "https://github.com/ProgramCrafter/ton-qr-deployer"
+
+[[repo]]
+url = "https://github.com/TrueCarry/timscan"
+
+[[repo]]
+url = "https://github.com/TrueCarry/ton-collection-edit"
+
+[[repo]]
+url = "https://github.com/TrueCarry/ton-contract-forwarder"
+
+[[repo]]
+url = "https://github.com/TrueCarry/ton-highload-wallet"
+
+[[repo]]
+url = "https://github.com/tondevwallet/tondevwallet"
+
+[[repo]]
+url = "https://github.com/olifanton/olifanton.github.io"
+
+[[repo]]
+url = "https://github.com/olifanton/interop"
+
+[[repo]]
+url = "https://github.com/olifanton/typed-arrays"
+
+[[repo]]
+url = "https://github.com/tondevmoscow/TON-knowledge"
+
+[[repo]]
+url = "https://github.com/mytonwallet/vscode-tonsolidity-extension"
+
+[[repo]]
+url = "https://github.com/mytonwallet/web-extension"
+
+[[repo]]
+url = "https://github.com/ston-fi/bug-bounty"
+
+[[repo]]
+url = "https://github.com/ston-fi/dex-core"
+
+[[repo]]
+url = "https://github.com/ston-fi/sdk"
+
+[[repo]]
+url = "https://github.com/scaleton-co/scaleton"
+
+[[repo]]
+url = "https://github.com/scaleton-co/token-contract"
+
+[[repo]]
+url = "https://github.com/TON-Pool/miner"
+
+[[repo]]
+url = "https://github.com/sky-ring/rift"
+
+[[repo]]
+url = "https://github.com/sky-ring/jettons"
+
+[[repo]]
+url = "https://github.com/sky-ring/ton-house"
+
+[[repo]]
+url = "https://github.com/sky-ring/ton-house-api"
+
+[[repo]]
+url = "https://github.com/delab-team/connect"
+
+[[repo]]
+url = "https://github.com/delab-team/contracts"
+
+[[repo]]
+url = "https://github.com/delab-team/tlbcrc"
+
+[[repo]]
+url = "https://github.com/mytonwalletorg/mytonwallet"
+
+[[repo]]
+url = "https://github.com/ton-connect/bridge"
+
+[[repo]]
+url = "https://github.com/ton-connect/wallets-list"
+
+[[repo]]
+url = "https://github.com/ton-connect/demo-dapp-with-react-ui"
+
+[[repo]]
+url = "https://github.com/ton-connect/sdk"
+
+[[repo]]
+url = "https://github.com/ton-connect/docs"
+
+[[repo]]
+url = "https://github.com/ton-connect/demo-dapp-with-backend"
+
+[[repo]]
+url = "https://github.com/ton-connect/demo-dapp"
+
+[[repo]]
+url = "https://github.com/ton-connect/demo-dapp-backend"
+
+[[repo]]
+url = "https://github.com/ton-connect/.github"
+
+[[repo]]
+url = "https://github.com/getgems-io/nft-contracts"
+
+[[repo]]
+url = "https://github.com/getgems-io/issues"
+
+[[repo]]
+url = "https://github.com/tondiamonds/tondiamonds"
+
+[[repo]]
+url = "https://github.com/tondiamonds/ton-nft-deployer"
+
+[[repo]]
+url = "https://github.com/tondiamonds/ton-wallet"
+
+[[repo]]
+url = "https://github.com/tondiamonds/ton-wallet-generator"
+
+[[repo]]
+url = "https://github.com/xtonwallet/web-extension"
+
+[[repo]]
+url = "https://github.com/xtonwallet/ton-dapp-boilerplate"
+
+[[repo]]
+url = "https://github.com/xtonwallet/demopage.xtonwallet.github.io"
+
+[[repo]]
+url = "https://github.com/ton-link/ton-link-node-v3"
+
+[[repo]]
+url = "https://github.com/ton-link/ton-link-contract-v3"
+
+[[repo]]
+url = "https://github.com/ton-link/ton-link-contract-v1"
+
+[[repo]]
+url = "https://github.com/ton-link/ton-link-node-v1"
+
+[[repo]]
+url = "https://github.com/tonkite/tonkite"
+
+[[repo]]
+url = "https://github.com/tonkite/emulator-binaries"
+
+[[repo]]
+url = "https://github.com/tonkite/ton-binaries"
+
+[[repo]]
+url = "https://github.com/tonstack/adnl-js"
+
+[[repo]]
+url = "https://github.com/tonstack/ton3-core"
+
+[[repo]]
+url = "https://github.com/tonstack/lite-client"
+
+[[repo]]
+url = "https://github.com/tonstack/ton3-contracts"
+
+[[repo]]
+url = "https://github.com/tonstack/ton3"
+
+[[repo]]
+url = "https://github.com/tonstack/wsadnlroxy"
+
+[[repo]]
+url = "https://github.com/tonstack/wallet-smcs"
+
+[[repo]]
+url = "https://github.com/tonstack/kblock-finder"
+
+[[repo]]
+url = "https://github.com/tonstack/ton3-providers"
+
+[[repo]]
+url = "https://github.com/tonstack/IDTI"
+
+[[repo]]
+url = "https://github.com/labraburn/SwiftyTON"
+
+[[repo]]
+url = "https://github.com/labraburn/juston-ios"
+
+[[repo]]
+url = "https://github.com/labraburn/juston-configurations"
+
+[[repo]]
+url = "https://github.com/labraburn/tonlib-xcframework"
+
+[[repo]]
+url = "https://github.com/labraburn/ton"
+
+[[repo]]
+url = "https://github.com/labraburn/heimdall"
+
+[[repo]]
+url = "https://github.com/labraburn/node-tonlib"
+
+[[repo]]
+url = "https://github.com/labraburn/ton3-core"
+
+[[repo]]
+url = "https://github.com/ton-community/blueprint"
+
+[[repo]]
+url = "https://github.com/ton-community/sandbox"
+
+[[repo]]
+url = "https://github.com/ton-community/twa-template"
+
+[[repo]]
+url = "https://github.com/ton-community/simple-distributor"
+
+[[repo]]
+url = "https://github.com/ton-community/create-ton"
+
+[[repo]]
+url = "https://github.com/ton-community/website"
+
+[[repo]]
+url = "https://github.com/ton-community/tact-guide-template"
+
+[[repo]]
+url = "https://github.com/ton-core/ton-emulator"
+
+[[repo]]
+url = "https://github.com/ton-core/ton-core"
+
+[[repo]]
+url = "https://github.com/ton-core/tact"
+
+[[repo]]
+url = "https://github.com/ton-core/tact-template"
+
+[[repo]]
+url = "https://github.com/ton-core/tact-docs"
+
+[[repo]]
+url = "https://github.com/ton-core/ton-compiler"
+
+[[repo]]
+url = "https://github.com/ton-core/ton-crypto-primitives"
+
+[[repo]]
+url = "https://github.com/ton-core/ton-crypto"
+
+[[repo]]
+url = "https://github.com/ton-core/ton"
+
+[[repo]]
+url = "https://github.com/ton-core/vscode-tact"
+
+[[repo]]
+url = "https://github.com/TonoxDeFi/st.tonox.org"
+
+[[repo]]
+url = "https://github.com/TonoxDeFi/open-contracts"
+
+[[repo]]
+url = "https://github.com/TonoxDeFi/WTON"
+
+[[repo]]
+url = "https://github.com/TonoxDeFi/wton.tonox.org"
+
+[[repo]]
+url = "https://github.com/TonoxDeFi/.github"
+
+[[repo]]
+url = "https://github.com/TonoxDeFi/capped-fungible-token"
+
+[[repo]]
+url = "https://github.com/TonoxDeFi/minter"
+
+[[repo]]
+url = "https://github.com/TonoxDeFi/TonoxDeFi.github.io"
+
+[[repo]]
+url = "https://github.com/tonfactory/tons-releases"
+
+[[repo]]
+url = "https://github.com/tonfactory/tonsdk"
+
+[[repo]]
+url = "https://github.com/ton-foundation/ton-nominators"
+
+[[repo]]
+url = "https://github.com/ton-foundation/token-contract"
+
+[[repo]]
+url = "https://github.com/ton-foundation/ton-cell"
+
+[[repo]]
+url = "https://github.com/ton-foundation/specs"
+
+[[repo]]
+url = "https://github.com/ton-foundation/contract-address-registry"
+
+[[repo]]
+url = "https://github.com/ton-foundation/ton-tl-b"
+
+[[repo]]
+url = "https://github.com/ton-foundation/ledger-ton-cli"
+
+[[repo]]
+url = "https://github.com/ton-foundation/ledger-live"
+
+[[repo]]
+url = "https://github.com/ton-foundation/ton-vault"
+
+[[repo]]
+url = "https://github.com/ton-foundation/ton-tl"
+
+[[repo]]
+url = "https://github.com/ton-utils/reverse-proxy"
+
+[[repo]]
+url = "https://github.com/ProgramCrafter/ratelance"
+
+[[repo]]
+url = "https://github.com/corruptzero-dev/jetton"
+
+[[repo]]
+url = "https://github.com/kalloc/ton-emulator-test"
+
+[[repo]]
+url = "https://github.com/romanovichim/TonFunClessons_ru"
+
+[[repo]]
+url = "https://github.com/romanovichim/TonFunClessons_Eng"
+
+[[repo]]
+url = "https://github.com/disintar/toncli"
+
+[[repo]]
+url = "https://github.com/xssnick/tonutils-go"
+
+[[repo]]
+url = "https://github.com/xssnick/ton-deep-doc"
+
+[[repo]]
+url = "https://github.com/psylopunk/pytonlib"
+
+[[repo]]
+url = "https://github.com/akme/tonmon"
+
+[[repo]]
+url = "https://github.com/AntonMeep/vaniton"
+
+[[repo]]
+url = "https://github.com/sllavon/crypto-pay-api-sdk"
+
+[[repo]]
+url = "https://github.com/menschee/tonscanplus"
+
+[[repo]]
+url = "https://github.com/uptimizt/ton-gateway"
+
+[[repo]]
+url = "https://github.com/Al-Muhandis/fp-ton"
+
+[[repo]]
+url = "https://github.com/gobicycle/bicycle"
+
+[[repo]]
+url = "https://github.com/awesome-doge/the-open-network-white-paper"
+
+[[repo]]
+url = "https://github.com/larchanka/nft-invitation-bot"
+
+[[repo]]
+url = "https://github.com/olifanton/ton"
+
+[[repo]]
+url = "https://github.com/olifanton/mnemonic"
+
+[[repo]]
+url = "https://github.com/olifanton/boc"
+
+[[repo]]
+url = "https://github.com/olifanton/utils"
+
+[[repo]]
+url = "https://github.com/bifrost-defi/bifrost-ton-contracts"
+
+[[repo]]
+url = "https://github.com/mir-one/ton-nft-license"
+
+[[repo]]
+url = "https://github.com/mir-one/TON-Gateway"
+
+[[repo]]
+url = "https://github.com/anomaly-guard/nft-deployer"
+
+[[repo]]
+url = "https://github.com/kokkekpek/ton-fun-parser"
+
+[[repo]]
+url = "https://github.com/andreypfau/ton-kotlin"
+
+[[repo]]
+url = "https://github.com/andreypfau/ton-proxy-client"
+
+[[repo]]
+url = "https://github.com/catchain/tonscan"
+
+[[repo]]
+url = "https://github.com/LiberMall/.github"
+
+[[repo]]
+url = "https://github.com/LiberMall/Contracts"
+
+[[repo]]
+url = "https://github.com/LiberMall/tnt"
+
+[[repo]]
+url = "https://github.com/mytonwalletorg/mytonwallet"
+
+[[repo]]
+url = "https://github.com/neodiX42/MyLocalTon"
+
+[[repo]]
+url = "https://github.com/neodiX42/ton4j"
+
+[[repo]]
+url = "https://github.com/TegroTON/.github"
+
+[[repo]]
+url = "https://github.com/TegroTON/Audit-token-BEP20-ERC20"
+
+[[repo]]
+url = "https://github.com/TegroTON/TokenTGR-AuditBEP20-cyberscope"
+
+[[repo]]
+url = "https://github.com/TegroTON/TON"
+
+[[repo]]
+url = "https://github.com/TegroTON/ton3-client"
+
+[[repo]]
+url = "https://github.com/TegroTON/ton3-contracts"
+
+[[repo]]
+url = "https://github.com/TegroTON/WooCommerce-TegroMoney-First"
 
 [[repo]]
 url = "https://github.com/ton-blockchain/address-util"
@@ -72,6 +558,12 @@ url = "https://github.com/ton-blockchain/func-contest2-solutions"
 url = "https://github.com/ton-blockchain/func-contest2-tests"
 
 [[repo]]
+url = "https://github.com/ton-blockchain/func-contest3"
+
+[[repo]]
+url = "https://github.com/ton-blockchain/governance-contract"
+
+[[repo]]
 url = "https://github.com/ton-blockchain/hack-challenge-1"
 
 [[repo]]
@@ -90,7 +582,16 @@ url = "https://github.com/ton-blockchain/lockup-wallet-contract"
 url = "https://github.com/ton-blockchain/mining-status"
 
 [[repo]]
+url = "https://github.com/ton-blockchain/minter"
+
+[[repo]]
+url = "https://github.com/ton-blockchain/minter-contract"
+
+[[repo]]
 url = "https://github.com/ton-blockchain/mnemonic2key"
+
+[[repo]]
+url = "https://github.com/ton-blockchain/multisig-contract"
 
 [[repo]]
 url = "https://github.com/ton-blockchain/mytonctrl"
@@ -106,6 +607,18 @@ url = "https://github.com/ton-blockchain/public_representatives"
 
 [[repo]]
 url = "https://github.com/ton-blockchain/punisher"
+
+[[repo]]
+url = "https://github.com/ton-blockchain/stablecoin-contract"
+
+[[repo]]
+url = "https://github.com/ton-blockchain/storage-gateway"
+
+[[repo]]
+url = "https://github.com/ton-blockchain/TEPs"
+
+[[repo]]
+url = "https://github.com/ton-blockchain/TIPs"
 
 [[repo]]
 url = "https://github.com/ton-blockchain/tl-parser"
@@ -150,13 +663,61 @@ url = "https://github.com/ton-blockchain/wallet-desktop"
 url = "https://github.com/ton-blockchain/wallet-ios"
 
 [[repo]]
+url = "https://github.com/ton-community/.github"
+
+[[repo]]
 url = "https://github.com/ton-community/awesome-ton"
+
+[[repo]]
+url = "https://github.com/ton-community/contract-multisig"
+
+[[repo]]
+url = "https://github.com/ton-community/contract-verifier"
+
+[[repo]]
+url = "https://github.com/ton-community/contract-verifier-backend"
+
+[[repo]]
+url = "https://github.com/ton-community/contract-verifier-contracts"
+
+[[repo]]
+url = "https://github.com/ton-community/contract-verifier-sdk"
+
+[[repo]]
+url = "https://github.com/ton-community/dao"
+
+[[repo]]
+url = "https://github.com/ton-community/disassembler"
+
+[[repo]]
+url = "https://github.com/ton-community/fpm"
 
 [[repo]]
 url = "https://github.com/ton-community/func-js"
 
 [[repo]]
+url = "https://github.com/ton-community/func-js-bin"
+
+[[repo]]
 url = "https://github.com/ton-community/ledger-app-ton"
+
+[[repo]]
+url = "https://github.com/ton-community/nft-giver"
+
+[[repo]]
+url = "https://github.com/ton-community/project-template-rfc"
+
+[[repo]]
+url = "https://github.com/ton-community/tact"
+
+[[repo]]
+url = "https://github.com/ton-community/tact-template"
+
+[[repo]]
+url = "https://github.com/ton-community/tlb-helper"
+
+[[repo]]
+url = "https://github.com/ton-community/tlb-parser"
 
 [[repo]]
 url = "https://github.com/ton-community/ton"
@@ -165,97 +726,76 @@ url = "https://github.com/ton-community/ton"
 url = "https://github.com/ton-community/ton-api-v4"
 
 [[repo]]
+url = "https://github.com/ton-community/ton-assets"
+
+[[repo]]
+url = "https://github.com/ton-community/ton-blockchain"
+
+[[repo]]
 url = "https://github.com/ton-community/ton-compiler"
+
+[[repo]]
+url = "https://github.com/ton-community/ton-contract-executor"
+
+[[repo]]
+url = "https://github.com/ton-community/ton-contract-verifier"
+
+[[repo]]
+url = "https://github.com/ton-community/ton-core"
 
 [[repo]]
 url = "https://github.com/ton-community/ton-docs"
 
 [[repo]]
+url = "https://github.com/ton-community/ton-emulator"
+
+[[repo]]
+url = "https://github.com/ton-community/ton-experimental"
+
+[[repo]]
+url = "https://github.com/ton-community/ton-ledger-ts"
+
+[[repo]]
 url = "https://github.com/ton-community/ton-lite-client"
 
 [[repo]]
-url = "https://github.com/ton-community/ton-nodejs"
+url = "https://github.com/ton-community/ton-onboarding-challenge"
+
+[[repo]]
+url = "https://github.com/ton-community/ton-tx-emulator"
 
 [[repo]]
 url = "https://github.com/ton-community/ton-vm"
 
 [[repo]]
+url = "https://github.com/ton-community/ton-vm-exec-builder"
+
+[[repo]]
 url = "https://github.com/ton-community/ton-x"
+
+[[repo]]
+url = "https://github.com/ton-community/tutorials"
+
+[[repo]]
+url = "https://github.com/ton-community/tx-emulator"
 
 [[repo]]
 url = "https://github.com/ton-community/vanity-contract"
 
 [[repo]]
-url = "https://github.com/ton-society/grants-program"
+url = "https://github.com/ton-community/vscode-func"
 
 [[repo]]
-url = "https://github.com/ton-society/ton-footsteps"
-
-[[repo]]
-url = "https://github.com/toncenter/dapp-example"
-
-[[repo]]
-url = "https://github.com/toncenter/examples"
-
-[[repo]]
-url = "https://github.com/toncenter/lockup-sender"
-
-[[repo]]
-url = "https://github.com/toncenter/payment-channels-example"
-
-[[repo]]
-url = "https://github.com/toncenter/pytonlib"
-
-[[repo]]
-url = "https://github.com/toncenter/ton-cx"
-
-[[repo]]
-url = "https://github.com/toncenter/ton-http-api"
-
-[[repo]]
-url = "https://github.com/toncenter/ton-indexer"
-
-[[repo]]
-url = "https://github.com/toncenter/ton-wallet"
-
-[[repo]]
-url = "https://github.com/toncenter/tonweb"
-
-[[repo]]
-url = "https://github.com/toncenter/tonweb-mnemonic"
-
-[[repo]]
-url = "https://github.com/toncenter/tvm_valuetypes"
-
-[[repo]]
-url = "https://github.com/tonkeeper/react-native-encrypted-storage"
-
-[[repo]]
-url = "https://github.com/tonkeeper/ton-assets"
-
-[[repo]]
-url = "https://github.com/tonkeeper/ton-connect"
-
-[[repo]]
-url = "https://github.com/tonkeeper/tonapi"
-
-[[repo]]
-url = "https://github.com/tonkeeper/tonapi-oauth-demo"
-
-[[repo]]
-url = "https://github.com/tonkeeper/tonlib-go"
-
-[[repo]]
-url = "https://github.com/tonkeeper/wallet"
-
-[[repo]]
-url = "https://github.com/tonkeeper/wallet-api"
+url = "https://github.com/ton-connect/bridge"
 
 [[repo]]
 url = "https://github.com/ton-defi-org/boc-parser"
 
 [[repo]]
 url = "https://github.com/ton-defi-org/boc-parser-estimator"
+
+[[repo]]
+url = "https://github.com/ton-defi-org/contract-verifier-backend"
 
 [[repo]]
 url = "https://github.com/ton-defi-org/heroku-buildpack-func-compiler"
@@ -333,22 +873,97 @@ url = "https://github.com/ton-defi-org/tonweb"
 url = "https://github.com/ton-defi-org/transfer-boc-parser"
 
 [[repo]]
-url = "https://github.com/TegroTON/.github"
+url = "https://github.com/ton-society/grants-program"
 
 [[repo]]
-url = "https://github.com/TegroTON/TON"
+url = "https://github.com/ton-society/ton-footsteps"
 
 [[repo]]
-url = "https://github.com/TegroTON/TokenTGR-AuditBEP20-cyberscope"
+url = "https://github.com/toncenter/dapp-example"
 
 [[repo]]
-url = "https://github.com/TegroTON/WooCommerce-TegroMoney-First"
+url = "https://github.com/toncenter/examples"
 
 [[repo]]
-url = "https://github.com/TegroTON/ton3-client"
+url = "https://github.com/toncenter/lockup-sender"
 
 [[repo]]
-url = "https://github.com/TegroTON/ton3-contracts"
+url = "https://github.com/toncenter/payment-channels-example"
+
+[[repo]]
+url = "https://github.com/toncenter/pytonlib"
+
+[[repo]]
+url = "https://github.com/toncenter/ton-cx"
+
+[[repo]]
+url = "https://github.com/toncenter/ton-http-api"
+
+[[repo]]
+url = "https://github.com/toncenter/ton-indexer"
+
+[[repo]]
+url = "https://github.com/toncenter/ton-wallet"
+
+[[repo]]
+url = "https://github.com/toncenter/tonweb"
+
+[[repo]]
+url = "https://github.com/toncenter/tonweb-mnemonic"
+
+[[repo]]
+url = "https://github.com/toncenter/tvm_valuetypes"
+
+[[repo]]
+url = "https://github.com/tonkeeper/bridge"
+
+[[repo]]
+url = "https://github.com/tonkeeper/react-native-encrypted-storage"
+
+[[repo]]
+url = "https://github.com/tonkeeper/ton-assets"
+
+[[repo]]
+url = "https://github.com/tonkeeper/ton-connect"
+
+[[repo]]
+url = "https://github.com/tonkeeper/ton-mnemonic-swift"
+
+[[repo]]
+url = "https://github.com/tonkeeper/tonapi"
+
+[[repo]]
+url = "https://github.com/tonkeeper/tonapi-oauth-demo"
+
+[[repo]]
+url = "https://github.com/tonkeeper/tonlib-go"
+
+[[repo]]
+url = "https://github.com/tonkeeper/wallet"
+
+[[repo]]
+url = "https://github.com/tonkeeper/wallet-api"
+
+[[repo]]
+url = "https://github.com/tonkeeper/web"
+
+[[repo]]
+url = "https://github.com/Tonstarter/issues"
+
+[[repo]]
+url = "https://github.com/Tonstarter/ton-domains-backend"
+
+[[repo]]
+url = "https://github.com/Tonstarter/ton-domains-frontend"
+
+[[repo]]
+url = "https://github.com/Tonstarter/ton-domains-frontend"
+
+[[repo]]
+url = "https://github.com/Tonstarter/ton-domains-backend"
+
+[[repo]]
+url = "https://github.com/tonwhales/ai-agent"
 
 [[repo]]
 url = "https://github.com/tonwhales/connect-example"
@@ -363,10 +978,10 @@ url = "https://github.com/tonwhales/lite-client-connector"
 url = "https://github.com/tonwhales/mytonctrl"
 
 [[repo]]
-url = "https://github.com/tonwhales/pyTONv3-docker"
+url = "https://github.com/tonwhales/pytonv3"
 
 [[repo]]
-url = "https://github.com/tonwhales/pytonv3"
+url = "https://github.com/tonwhales/pyTONv3-docker"
 
 [[repo]]
 url = "https://github.com/tonwhales/react-ton-x"
@@ -439,54 +1054,3 @@ url = "https://github.com/tonwhales/wallet-extension-chrome"
 
 [[repo]]
 url = "https://github.com/tonwhales/whales-nft"
-
-[[repo]]
-url = "https://github.com/andreypfau/ton-kotlin"
-
-[[repo]]
-url = "https://github.com/catchain/tonscan"
-
-[[repo]]
-url = "https://github.com/LiberMall/.github"
-
-[[repo]]
-url = "https://github.com/LiberMall/tnt"
-
-[[repo]]
-url = "https://github.com/Tonstarter/issues"
-
-[[repo]]
-url = "https://github.com/Tonstarter/ton-domains-backend"
-
-[[repo]]
-url = "https://github.com/Tonstarter/ton-domains-frontend"
-
-[[repo]]
-url = "https://github.com/neodiX42/MyLocalTon"
-
-[[repo]]
-url = "https://github.com/mytonwalletorg/mytonwallet"
-
-[[repo]]
-url = "https://github.com/OpenProduct/openmask-docs"
-
-[[repo]]
-url = "https://github.com/OpenProduct/openmask-extension"
-
-[[repo]]
-url = "https://github.com/OpenProduct/openmask-websdk"
-
-[[repo]]
-url = "https://github.com/tonswap/_tonswap-web___"
-
-[[repo]]
-url = "https://github.com/tonswap/tonswap-android-ux-concept"
-
-[[repo]]
-url = "https://github.com/tonswap/tonswap-contracts"
-
-[[repo]]
-url = "https://github.com/tonswap/tonswap-telegram-bot"
-
-[[repo]]
-url = "https://github.com/tonswap/tonswap-web"

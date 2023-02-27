@@ -1,0 +1,10 @@
+# Ecosystem Level Information
+title = "Metrika"
+
+# GitHub Organizations
+github_organizations = ["https://github.com/Metrika-Inc"]
+
+# Repositories
+[[repo]]
+url = "https://github.com/Metrika-Inc/agent"
+tags = [ "Node Agent"]
